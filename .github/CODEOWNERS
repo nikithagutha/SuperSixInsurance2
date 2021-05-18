@@ -5,4 +5,12 @@
 # the repo. Unless a later match takes precedence,
 # @global-owner1 and @global-owner2 will be requested for
 # review when someone opens a pull request.
-*       @nikitha.gutha@gmail.com
+*       @nikithagutha
+
+# The `docs/*` pattern will match files like
+# `docs/getting-started.md` but not further nested files like
+# `docs/build-app/troubleshooting.md`.
+api/poi*  @vjcrypto
+api/trips* @TekExpo
+api/userprofile* @77vetter420
+api/user-java* @SukanyaRScholar
